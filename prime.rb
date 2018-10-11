@@ -1,4 +1,8 @@
 def prime?(num) 
+  if num < 0
+    return false
+  end
+  
   a = Array (2..(num - 1))
   
   a.each do |int|
