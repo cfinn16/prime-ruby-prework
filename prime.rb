@@ -1,5 +1,5 @@
-def prime?(integer) 
-  a = (1..integer).to_a 
+def prime?(num) 
+  a = Array (1..num)
   
   i = 0
   while array[i] <= integer
